@@ -28,4 +28,8 @@ def is_number_guess_correct(number_guess):
 
 
 def print_number_steps():
+    print("Step " + str(current_steps) + ".")
+
+
+def print_number_guess_correct():
     print("You got it right in " + str(current_steps) + ".")

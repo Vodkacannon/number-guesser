@@ -6,7 +6,7 @@ def get_number_guess():
     return input("Enter a number to guess: ")
 
 
-def set_number_range():
+def get_number_range():
     low = input("Enter a lower bound: ")
     high = input("Enter an upper bound: ")
     return (low, high)
